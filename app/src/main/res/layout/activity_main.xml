@@ -13,13 +13,25 @@
         android:src="@drawable/forestpark"
         android:scaleType="centerCrop" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Forest Park"
-        android:layout_marginTop="20dp"
+        android:text="Find Yourself in Forest Park"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
-        android:textSize="40sp"
+        android:gravity="center"
+        android:textSize="50sp"
         android:fontFamily="sans-serif-condensed"
         android:textStyle="bold"
         android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:text="View trail map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/viewMapButton" />
 </RelativeLayout>
